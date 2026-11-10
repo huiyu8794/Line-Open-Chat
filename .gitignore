@@ -1,0 +1,30 @@
+# Source-only repository. Runtime data is private and stays local.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/line_capture_core.py
+!/line_longshot.py
+!/line_openchat_capture.py
+!/line_openchat_worker.py
+!/line_openchat_tray.pyw
+!/tests/
+/tests/*
+!/tests/test_*.py
+!/tools/
+/tools/*
+!/tools/build.ps1
+!/tools/generate_icon.py
+# Never commit screenshots, generated graphics or binaries anywhere.
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.ico
+*.exe
+*.dll
+*.pyc
+__pycache__/
+.env*
